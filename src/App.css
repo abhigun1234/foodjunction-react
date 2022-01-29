@@ -1,12 +1,23 @@
 .App {
   text-align: center;
 }
+img{
+  height: 500px;
+}
+.menu{
 
+  width: 200px;
+  height: 200px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.container{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
